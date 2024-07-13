@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">SounDio</string>
     <string name="app_text">Hello, Android!</string>
+
+	<string name="Login_digite_Login">Digite aqui seu Email</string>
+	<string name="Login_digite_Senha">Digite sua Senha</string>
+	<string name="Login_button_efetuar_login">Entrar</string>
 </resources>
