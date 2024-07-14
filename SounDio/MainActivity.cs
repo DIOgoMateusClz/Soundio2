@@ -1,4 +1,7 @@
+using Android.Content;
+using SounDio.Activities;
 namespace SounDio
+   
 {
     [Activity(Label = "@string/app_name", MainLauncher = true)]
     public class MainActivity : Activity
@@ -9,6 +12,9 @@ namespace SounDio
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            Intent intent = new Intent(this, typeof(LoginActivity));
+            StartActivity(intent);
         }
     }
 }
